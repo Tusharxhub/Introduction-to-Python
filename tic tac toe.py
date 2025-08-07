@@ -32,7 +32,7 @@ def main():
             move = input(f"Player {current_player}, enter your move as row,col (0-2, e.g. 1,2): ")
             row, col = map(int, move.split(','))
             if board[row][col] != ' ':
-                print("Cell already taken, try again.")
+                print("A vai tui late hoya geachis.")
                 continue
         except (ValueError, IndexError):
             print("Invalid input, please enter row and column as numbers from 0 to 2.")
