@@ -2,6 +2,7 @@
 <div align="center">
 
 # 🐍 Introduction to Python 🎯  
+
 ### *A Fun Start to Your Python Journey*  
 
 </div>
@@ -9,21 +10,25 @@
 ---
 
 ## 📜 Overview
+
 Welcome to **Introduction to Python** – a beginner-friendly project where you can learn Python by building and playing the timeless **Tic Tac Toe** game.  
 This is a simple yet powerful foundation for exploring Python logic, game design, and code structure.
 
 ---
 
 ## ✨ Features
+
 - 🎮 **Playable Tic Tac Toe** in pure Python  
 - 🧠 Great for learning **loops, conditionals, functions**  
 - 🚀 Easy to customize and expand with new features  
 - 🖥 No external libraries – just Python!
+
 ---
 
 ## ⚡ Quick Start
 
 1️⃣ **Clone the repository**  
+
 ```bash
 git clone https://github.com/Tusharxhub/Introduction-to-Python.git
 ````
@@ -34,13 +39,12 @@ git clone https://github.com/Tusharxhub/Introduction-to-Python.git
 cd Introduction-to-Python
 ```
 
-
 ## 💡 Future Improvements
 
-* 🤖 Add AI opponent using **Minimax algorithm**
-* 🎨 Add GUI with **Tkinter** or **Pygame**
-* 🌐 Create an **online multiplayer** version
-* 📊 Add **score tracking** & game history
+- 🤖 Add AI opponent using **Minimax algorithm**
+- 🎨 Add GUI with **Tkinter** or **Pygame**
+- 🌐 Create an **online multiplayer** version
+- 📊 Add **score tracking** & game history
 
 ---
 
@@ -62,4 +66,3 @@ Fork it, make your changes, and submit a Pull Request. All contributions are wel
 ---
 
 *Let’s code, play, and learn together!* 🚀
-
