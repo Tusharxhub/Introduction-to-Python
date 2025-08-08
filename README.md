@@ -19,18 +19,6 @@ This is a simple yet powerful foundation for exploring Python logic, game design
 - 🧠 Great for learning **loops, conditionals, functions**  
 - 🚀 Easy to customize and expand with new features  
 - 🖥 No external libraries – just Python!
-
----
-
-## 📂 Project Structure
-```
-
-📦 Introduction-to-Python
-┣ 📜 tic tac toe.py   # Main game file
-┗ 📜 README.md        # You’re reading it 😉
-
-````
-
 ---
 
 ## ⚡ Quick Start
