@@ -19,3 +19,13 @@
 
 
 
+# odd_sum.py
+
+# Take input
+n = int(input("Enter the last over number: "))
+
+# Count how many odd numbers are there from 1 to n
+k = (n + 1) // 2   # This is ceil(n/2)
+
+# Sum of first k odd numbers is k^2
+print(k * k)
