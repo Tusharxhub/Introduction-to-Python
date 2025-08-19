@@ -19,13 +19,29 @@
 
 
 
-# odd_sum.py
+def sum_odd_numbers(n):
+  """
+  Calculates the sum of all odd numbers from 1 to n.
 
-# Take input
-n = int(input("Enter the last over number: "))
+  Args:
+    n: An integer representing the last over of the day.
 
-# Count how many odd numbers are there from 1 to n
-k = (n + 1) // 2   # This is ceil(n/2)
+  Returns:
+    The sum of all odd numbers from 1 to n.
+  """
+  if n % 2 == 1:
+    # If n is odd
+    num_odd = (n + 1) // 2
+  else:
+    # If n is even
+    num_odd = n // 2
+  return num_odd * num_odd
 
-# Sum of first k odd numbers is k^2
-print(k * k)
+# Example Usage:
+last_over = 15
+total_runs_in_odd_overs = sum_odd_numbers(last_over)
+print(f"For a day with {last_over} overs, the sum of runs in odd-numbered overs is: {total_runs_in_odd_overs}")
+
+last_over = 100
+total_runs_in_odd_overs = sum_odd_numbers(last_over)
+print(f"For a day with {last_over} overs, the sum of runs in odd-numbered overs is: {total_runs_in_odd_overs}")
