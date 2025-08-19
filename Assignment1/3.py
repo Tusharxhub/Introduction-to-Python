@@ -20,3 +20,33 @@
 
 
 
+def count_vowels(message):
+  """
+  Counts the number of vowels in a given string.
+
+  Args:
+    message: A string which may contain a hidden signal.
+
+  Returns:
+    An integer representing the total count of vowels.
+  """
+  # A set of all vowels for quick lookup (both lowercase and uppercase)
+  vowels = "aeiouAEIOU"
+  vowel_count = 0
+  
+  # Iterate through each character in the message
+  for char in message:
+    # Check if the character is a vowel
+    if char in vowels:
+      vowel_count += 1
+      
+  return vowel_count
+
+# Get the message from the user
+try:
+  input_message = input("Enter the message to analyze: ")
+  # Calculate and print the vowel count
+  result = count_vowels(input_message)
+  print(f"Vowel count: {result}")
+except Exception as e:
+  print(f"An error occurred: {e}")
