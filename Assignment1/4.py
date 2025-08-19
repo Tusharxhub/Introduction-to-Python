@@ -9,3 +9,17 @@
 # Test Case 2	this,is,a,good,word	word
 # Test Case 3	a,ab,abc,abcd,abcde	abcde
 
+
+
+# longest_word.py
+
+# Take input (comma-separated words)
+words = input("Enter words separated by commas: ").split(",")
+
+# Track the longest word, preferring the rightmost if lengths are equal
+longest = ""
+for w in words:
+    if len(w) >= len(longest):   # >= ensures rightmost wins in a tie
+        longest = w
+
+print(longest)
