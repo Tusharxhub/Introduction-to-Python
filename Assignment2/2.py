@@ -1,0 +1,1 @@
+# Write a Python decorator timer that measures the execution time of a function and prints the result. Apply this decorator to a function that performs a complex calculation, such as finding prime numbers up to a given limit
