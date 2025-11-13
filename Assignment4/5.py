@@ -1,0 +1,1 @@
+#Write a Pandas program to handle missing data in a DataFrame by replacing all NaN values with the column's mean value.
