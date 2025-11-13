@@ -1,4 +1,6 @@
-#Create a Pandas Series of 5 numbers and demonstrate insertion and deletion of an element.
+#Create a Pandas Series of 5 numbers and demonstrate insertion and deletion of an element.(Hint: Use pd.Series(), .drop(), and pd.concat()).Create a Pandas Series of 5 numbers and demonstrate insertion and deletion of an element.
+
+
 import pandas as pd
 
 series = pd.Series([10, 20, 30, 40, 50])
